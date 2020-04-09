@@ -1,0 +1,30 @@
+body{
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+footer{
+    background-color: black;
+    padding: 60%;
+}
+.navbar-wrapper{
+    position: relative;
+    z-index: 15;
+}
+.carousel{margin-bottom: 60px;margin-top: -90px;}
+.carousel-caption{z-index: 10;}
+.carousel.item{height: 500px;background-color: #777;}
+.carousel-inner> .item> img{position: absolute;top: 0;left: 0;min-width: 100%;height: 500px;}
+.marketing{padding-left: 15px;padding-right: 15px;}
+.marketing.col-lg-4{text-align: center;margin-bottom: 20px;}
+.marketingh2{font-weight: normal;}
+.marketing.col-lg-4p{margin-left: 10px;margin-right: 10px;}
+.navbar.nav> li> a{color: #fff;text-shadow: none;}
+.navbar.nav> li> a:hover{color: #666;}
+.navbar.nav.active> a{color: #666;background: none;}
+.navbar.nav.active> a:hover{background: none;}
+@media(min-width: 768px) {
+.marketing{padding-left: 0;padding-right: 0;}
+.navbar-wrapper{margin-top: 20px;}
+.navbar-wrapper.navbar{border-radius: 4px;}
+.carousel-captionp{margin-bottom: 20px;font-size: 21px;line-height: 1.4;}}
